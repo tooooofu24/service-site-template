@@ -54,6 +54,7 @@
     "@storybook/test": "^8.1.9",
     "@types/node": "^20.14.2",
     "@types/react": "^18.3.3",
+    "chromatic": "^11.5.4",
     "commitizen": "^4.3.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.0",

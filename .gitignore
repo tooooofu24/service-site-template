@@ -52,3 +52,4 @@ sitemap*.xml
 .vscode/settings.json
 
 *storybook.log
+storybook-static
