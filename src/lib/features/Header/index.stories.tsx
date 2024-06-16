@@ -2,10 +2,9 @@ import { Box } from "@chakra-ui/react";
 import type { Meta, StoryObj } from "@storybook/react";
 
 import background from "~/lib/features/Header/assets/background.svg";
-
-import { RoundedHeader } from "./components/RoundedHeader";
-import { SimpleHeader } from "./components/SimpleHeader";
-import { SkeletonHeader } from "./components/SkeletonHeader";
+import { RoundedHeader } from "~/lib/features/Header/components/RoundedHeader";
+import { SimpleHeader } from "~/lib/features/Header/components/SimpleHeader";
+import { SkeletonHeader } from "~/lib/features/Header/components/SkeletonHeader";
 
 const meta = {
   title: "ヘッダー・メニュー",
