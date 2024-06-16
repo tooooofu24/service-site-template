@@ -13,10 +13,13 @@ const baseStyle = definePartsStyle({
 
 const sizes = {
   lg: definePartsStyle({
-    container: {},
+    container: {
+      rounded: 32,
+    },
     header: {},
     body: {
       p: 12,
+      bg: "primary.100",
     },
     footer: {},
   }),
