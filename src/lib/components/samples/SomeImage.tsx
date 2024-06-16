@@ -2,7 +2,7 @@
 
 import { Flex, useColorMode } from "@chakra-ui/react";
 
-import HelperImage from "./HelperImage";
+import HelperImage from "~/lib/components/samples/HelperImage";
 
 const SomeImage = () => {
   const { colorMode } = useColorMode();

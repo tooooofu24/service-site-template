@@ -3,8 +3,8 @@
 import { Box } from "@chakra-ui/react";
 import type { ReactNode } from "react";
 
-import Footer from "./Footer";
-import Header from "./Header";
+import Footer from "~/lib/layout/Footer";
+import Header from "~/lib/layout/Header";
 
 type LayoutProps = {
   children: ReactNode;
