@@ -1,22 +1,8 @@
 import React from "react";
-import {
-  ChakraProvider,
-  baseTheme,
-  extendTheme,
-  withDefaultColorScheme,
-} from "@chakra-ui/react";
+import { ChakraProvider } from "@chakra-ui/react";
 import type { Preview } from "@storybook/react";
-
-const theme = extendTheme(
-  {
-    colors: {
-      primary: baseTheme.colors.blue,
-    },
-  },
-  withDefaultColorScheme({
-    colorScheme: "primary",
-  })
-);
+// @ts-expect-error
+import theme from "~/chakra/theme";
 
 const preview: Preview = {
   parameters: {
