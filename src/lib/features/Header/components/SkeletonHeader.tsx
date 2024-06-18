@@ -8,7 +8,7 @@ import logo from "~/lib/features/Header/assets/logo.svg";
  */
 export const SkeletonHeader = memo(() => {
   return (
-    <Flex justify="space-between" align="center" height={12}>
+    <Flex justify="space-between" align="center">
       <Image src={logo.src} alt="logo" height={32} width={32} />
       <Card bg="white" rounded="full" px={4}>
         <CardBody>

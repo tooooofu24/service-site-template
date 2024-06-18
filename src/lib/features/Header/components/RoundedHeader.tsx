@@ -8,7 +8,7 @@ import logo from "~/lib/features/Header/assets/logo.svg";
  */
 export const RoundedHeader = memo(() => {
   return (
-    <Card rounded="full">
+    <Card rounded="full" bg="none" backdropFilter="blur(10px)">
       <CardBody>
         <Flex
           justify="space-between"

@@ -15,11 +15,11 @@ const sizes = {
   lg: definePartsStyle({
     container: {
       rounded: 32,
+      bg: "primary.100",
     },
     header: {},
     body: {
       p: 12,
-      bg: "primary.100",
     },
     footer: {},
   }),
