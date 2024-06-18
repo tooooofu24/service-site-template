@@ -4,7 +4,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { MobileHero } from "~/lib/features/Hero/components/MobileHero";
 
 const meta = {
-  title: "Hero",
+  title: "見出し",
   component: Box,
 } satisfies Meta<typeof Box>;
 
