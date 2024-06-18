@@ -11,7 +11,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const App: Story = {
+export const Mobile: Story = {
   name: "モバイルアプリ",
   render: () => <MobileHero />,
 };
