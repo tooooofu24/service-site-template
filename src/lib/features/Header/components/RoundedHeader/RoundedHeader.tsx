@@ -8,7 +8,7 @@ import logo from "~/lib/features/Header/assets/logo.svg";
  */
 export const RoundedHeader = memo(() => {
   return (
-    <Card rounded="full" bg="none" backdropFilter="blur(10px)">
+    <Card rounded="full" variant="outline">
       <CardBody>
         <Flex
           justify="space-between"
@@ -21,7 +21,7 @@ export const RoundedHeader = memo(() => {
             <Link>Pricing</Link>
             <Link>Contact us</Link>
           </Flex>
-          <Image src={logo.src} alt="logo" height={32} width={32} />
+          <Image src={logo.src} alt="logo" height={10} />
           <Flex justify="end" align="center" gap={8}>
             <Link>Request demo</Link>
             <Button rounded="full">Start for free</Button>

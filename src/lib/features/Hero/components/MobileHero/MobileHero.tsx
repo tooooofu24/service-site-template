@@ -10,8 +10,8 @@ import {
 import { memo } from "react";
 import { FaApple } from "react-icons/fa6";
 
-import logo from "~/lib/features/Hero/assets/logo.svg";
-import screenshot from "~/lib/features/Hero/assets/screenshot.png";
+import logo from "~/lib/features/Hero/components/MobileHero/assets/logo.svg";
+import screenshot from "~/lib/features/Hero/components/MobileHero/assets/screenshot.png";
 
 export const MobileHero = memo(() => {
   return (

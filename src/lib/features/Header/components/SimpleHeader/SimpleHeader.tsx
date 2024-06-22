@@ -10,9 +10,9 @@ import logo from "~/lib/features/Header/assets/logo.svg";
 export const SimpleHeader = memo(() => {
   return (
     <Card bg="none">
-      <CardBody height={12}>
+      <CardBody>
         <Flex justify="space-between" align="center">
-          <Image src={logo.src} alt="logo" height={32} width={32} />
+          <Image src={logo.src} alt="logo" height={10} />
           <Flex
             justify="end"
             align="center"

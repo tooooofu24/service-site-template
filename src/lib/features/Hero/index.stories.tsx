@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { MobileHero } from "~/lib/features/Hero/components/MobileHero";
+import { MobileHero } from "~/lib/features/Hero/components/MobileHero/MobileHero";
 
 const meta = {
   title: "見出し",
