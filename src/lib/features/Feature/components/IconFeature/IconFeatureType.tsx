@@ -10,6 +10,7 @@ const MotionBox = motion(chakra.div);
 export const IconFeatureType = memo(() => {
   return (
     <IconFeature
+      colorScheme="red"
       icon={
         <Flex justify="center" align="center">
           <Text fontSize="100" fontWeight="bold" marginRight={-14} pl={14}>
@@ -17,7 +18,7 @@ export const IconFeatureType = memo(() => {
           </Text>
           <Flex width={140} justify="center" align="center">
             <MotionBox
-              color="primary.500"
+              color="red.500"
               initial={{ display: "inline-block" }}
               animate={{
                 display: ["inline-block", "none"],

@@ -10,6 +10,7 @@ const MotionBox = motion(chakra.div);
 export const IconFeatureRepeat = memo(() => {
   return (
     <IconFeature
+      colorScheme="yellow"
       icon={
         <MotionBox
           animate={{

@@ -10,6 +10,7 @@ const MotionBox = motion(chakra.div);
 export const IconFeatureLock = memo(() => {
   return (
     <IconFeature
+      colorScheme="blue"
       icon={
         <MotionBox
           initial={{ rotate: 0 }}
