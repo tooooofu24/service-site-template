@@ -21,10 +21,10 @@ export const SimpleHeader = memo(() => {
           >
             <Link>Blog</Link>
             <Link>Docs</Link>
-            <Link fontSize={24}>
+            <Link fontSize="lg">
               <FaTwitter />
             </Link>
-            <Link fontSize={24}>
+            <Link fontSize="lg">
               <FaLinkedin />
             </Link>
             <Button rounded="full">Join private alpha</Button>
