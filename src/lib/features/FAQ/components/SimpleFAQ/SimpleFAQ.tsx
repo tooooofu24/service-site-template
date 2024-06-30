@@ -17,7 +17,7 @@ type Props = {
 
 export const SimpleFAQ = memo(({ title, content }: Props) => {
   return (
-    <Card size="md">
+    <Card size="md" bg="white">
       <CardBody>
         <Accordion allowToggle>
           <AccordionItem border="none">
