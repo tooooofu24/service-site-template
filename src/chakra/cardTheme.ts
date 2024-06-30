@@ -22,6 +22,16 @@ const sizes = {
     },
     footer: {},
   }),
+  md: definePartsStyle({
+    container: {
+      rounded: 32,
+    },
+    header: {},
+    body: {
+      p: 6,
+    },
+    footer: {},
+  }),
 };
 
 const defaultProps = {
