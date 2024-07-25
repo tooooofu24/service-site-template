@@ -22,7 +22,7 @@ const PCView = memo(() => (
 ));
 
 const SPView = memo(() => (
-  <Box px={8} py={16}>
+  <Box>
     <Image src={img.src} alt="iphone" width="full" rounded={16} shadow="lg" />
     <Flex flexDir="column" justifyContent="center" gap={2} mt={4}>
       <Flex flexWrap="wrap">
