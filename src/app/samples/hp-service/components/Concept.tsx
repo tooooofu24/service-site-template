@@ -25,12 +25,11 @@ const SPView = memo(() => (
   <Box px={8} py={16}>
     <Image src={img.src} alt="iphone" width="full" rounded={16} shadow="lg" />
     <Flex flexDir="column" justifyContent="center" gap={2} mt={4}>
-      <Heading size="lg">
-        誰でも自分のHPを持てる
-        <br />
-        サービス
-      </Heading>
-      <Text color="gray.600" as="p" fontSize="small">
+      <Flex flexWrap="wrap">
+        <Heading size="lg">誰でも自分のHPを持てる</Heading>
+        <Heading size="lg">サービス</Heading>
+      </Flex>
+      <Text color="gray.600" as="p" size="sm">
         技術的な知識がなくても簡単に美しいウェブサイトを作成できるプラットフォームです。ドラッグ＆ドロップ機能や多彩なテンプレートを利用して、個人ブログからビジネスサイトまで自由にカスタマイズできます。SEO対策やモバイル対応も完備し、誰でも手軽に自分だけのオンラインプレゼンスを確立できます。{" "}
       </Text>
     </Flex>
