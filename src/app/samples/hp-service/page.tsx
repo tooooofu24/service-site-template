@@ -15,16 +15,7 @@ const font = Noto_Sans({
 export default () => {
   return (
     <Box as="main" className={font.className}>
-      <Box
-        position="fixed"
-        zIndex="sticky"
-        w="full"
-        top={5}
-        display="flex"
-        justifyContent="center"
-      >
-        <Header />
-      </Box>
+      <Header />
       <Container pt={32} maxW="container.xl">
         <Hero />
       </Container>
